@@ -1,0 +1,25 @@
+body,html{height:100%}
+body{display:flex;justify-content:center;align-items:center}
+
+/* mixin for multiline */
+@mixin LineEllipsis($FontSize: 1, $line-height-base: 1.5, $LineCount: 1){
+   display: block;
+   overflow: hidden;
+   font-size: $FontSize;
+   line-height: $line-height-base;
+   max-height: $FontSize * $line-height-base * $LineCount;
+}
+
+.card {
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+   .title {
+      @include LineEllipsis($FontSize: 18px, $LineCount: 2);
+   }
+   .dsc {
+      @include LineEllipsis($FontSize: 16px, $LineCount: 3);
+   }
+}

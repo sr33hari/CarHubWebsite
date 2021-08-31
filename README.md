@@ -1,0 +1,3 @@
+# CarHub
+
+This project is a web application based on the MERN stack run using a shell script. The user interface displays a vast array of cars and can be sorted in order of top speed, power, engine specifications and make of the car. K-means clustering algorithm is used on all these parameters to show cars that are closest to the users search. A neural network using keras and tensorflow has been implemented to distinguish cars based on their image.

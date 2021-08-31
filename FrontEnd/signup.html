@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./login.css">
+    <script>
+			var obj={
+				xhr:new XMLHttpRequest(),
+				register:function(){
+          var uname=document.getElementById("name").value;
+					var uname=document.getElementById("username").value;
+          var pwd=document.getElementById("password").value;
+          this.xhr.onreadystatechange=this.check;
+          this.xhr.open("POST","http://127.0.0.1:8000/register",true);
+          this.xhr.setRequestHeader("Content-type","application/json")
+          this.xhr.send(JSON.stringify({"username":uname,"password":pwd,"name":name}));
+				},
+				check:function(){
+					if(this.readyState==4 && this.status==200){
+						var res=this.responseText;
+            res=JSON.parse(res);
+            if(res['Message'] == "Success"){
+              document.cookie = res['Cookie'];
+              window.location.href = "home.html";
+            }
+            else{
+              alert(res['Message']);
+              window.location.href = "signup.html";
+            }
+					}
+				}
+			}
+		</script>
+  </head>
+  <body>
+    <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <h2 class="active" >Sign Up </h2>
+      <h2 class="inactive underlineHover"> <a href="login.html"> Sign In <a/> </h2>
+
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="./user-icon.png" id="icon" alt="User Icon" />
+      </div>
+
+      <!-- Login Form -->
+      <input type="text" id="name" class="fadeIn second" placeholder="name">
+      <input type="text" id="username" class="fadeIn second" placeholder="username">
+      <input type="password" id="password" class="fadeIn third" placeholder="password">
+      <input type="button" class="fadeIn fourth" value="Sign Up" onclick="obj.register()">
+
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="#">Forgot Password?</a>
+      </div>
+
+    </div>
+  </div>
+
+  </body>
+</html>
