@@ -1,0 +1,223 @@
+[
+    {
+        "path": "oneto1.jpg",
+        "name": "one:1",
+        "year": "2016",
+        "topspeed": "414",
+        "zero100": "2.8",
+        "hp": "1360",
+        "type": "hypercar",
+        "engine": "V8"
+
+    },
+    {
+        "path": "ferrarif40.jpg",
+        "name": "F40",
+        "year": "1987",
+        "topspeed": "360",
+        "zero100": "4.1",
+        "hp": "478",
+        "type": "supercar",
+        "engine": "V8"
+
+    },
+    {
+        "path": "lexuslfa.jpg",
+        "name": "lfa",
+        "year": "2010",
+        "topspeed": "325",
+        "zero100": "3.6",
+        "hp": "552",
+        "type": "supercar",
+        "engine": "V10"
+
+    },
+    {
+        "path": "fordgt40.jpg",
+        "name": "gt40",
+        "year": "1964",
+        "topspeed": "350",
+        "zero100": "3.8",
+        "hp": "485",
+        "type": "supercar",
+        "engine": "V8"
+
+    },
+    {
+        "path": "amdb05.jpg",
+        "name": "DB5",
+        "year": "1963",
+        "topspeed": "233",
+        "zero100": "8",
+        "hp": "282",
+        "type": "classiccar",
+        "engine": "straight 6"
+
+    },
+    {
+        "path": "rimac1.jpg",
+        "name": "rimac 1",
+        "year": "2013",
+        "topspeed": "356",
+        "zero100": "2.6",
+        "hp": "1224",
+        "type": "hypercar",
+        "engine": "electric"
+
+    },
+    {
+        "path": "amggtr.jpg",
+        "name": "amg gtr",
+        "year": "2017",
+        "topspeed": "320",
+        "zero100": "3.2",
+        "hp": "789",
+        "type": "supercar",
+        "engine": "V8"
+
+    },
+    {
+        "path": "viperacr.jpg",
+        "name": "viper",
+        "year": "2007",
+        "topspeed": "345",
+        "zero100": "3.4",
+        "hp": "660",
+        "type": "supercar",
+        "engine": "V10"
+
+    },
+    {
+        "path": "huayrabc.jpg",
+        "name": "huayra roadster BC",
+        "year": "2012",
+        "topspeed": "414",
+        "zero100": "2.6",
+        "hp": "755",
+        "type": "supercar",
+        "engine": "V12"
+
+    },
+    {
+        "path": "supra.jpg",
+        "name": "supra",
+        "year": "2002",
+        "topspeed": "285",
+        "zero100": "4.5",
+        "hp": "330",
+        "type": "supercar",
+        "engine": "inline 6"
+
+    },
+    {
+        "path": "mustang.jpg",
+        "name": "mustang 1968",
+        "year": "1968",
+        "topspeed": "170",
+        "zero100": "5.4",
+        "hp": "335",
+        "type": "classiccar",
+        "engine": "V8"
+
+    },
+    {
+        "path": "911gt3.jpg",
+        "name": "911 GT3",
+        "year": "1964",
+        "topspeed": "350",
+        "zero100": "3",
+        "hp": "500",
+        "type": "supercar",
+        "engine": "flat six"
+
+    },
+    {
+        "path": "urus.jpg",
+        "name": "urus",
+        "year": "2018",
+        "topspeed": "305",
+        "zero100": "3.6",
+        "hp": "650",
+        "type": "supercar",
+        "engine": "V8"
+
+    },
+    {
+        "path": "bmwm2.jpg",
+        "name": "M2 competition",
+        "year": "2013",
+        "topspeed": "300",
+        "zero100": "4.2",
+        "hp": "410",
+        "type": "supercar",
+        "engine": "inline six"
+
+    },
+    {
+        "path": "superbird.jpg",
+        "name": "superbird",
+        "year": "1970",
+        "topspeed": "298",
+        "zero100": "4.8",
+        "hp": "425",
+        "type": "supercar",
+        "engine": "V8"
+
+    },
+    {
+        "path": "skyline.jpg",
+        "name": "R-34 skyline",
+        "year": "1998",
+        "topspeed": "315",
+        "zero100": "2.9",
+        "hp": "530",
+        "type": "supercar",
+        "engine": "inline six"
+
+    },
+    {
+        "path": "mclaren.jpg",
+        "name": "McLaren F1",
+        "year": "1992",
+        "topspeed": "354",
+        "zero100": "3.4",
+        "hp": "600",
+        "type": "supercar",
+        "engine": "V12"
+
+    },
+    {
+        "path": "bugatti.jpg",
+        "name": "Veyron Super Sport",
+        "year": "2010",
+        "topspeed": "431",
+        "zero100": "2.4",
+        "hp": "1200",
+        "type": "hypercar",
+        "engine": "W16"
+
+    },
+    {
+        "path": "quattro.jpg",
+        "name": "Quattro",
+        "year": "1980",
+        "topspeed": "230",
+        "zero100": "6.6",
+        "hp": "200",
+        "type": "rallycar",
+        "engine": "inline five"
+
+    },
+    {
+        "path": "rx7.jpg",
+        "name": "RX-7 Veilside",
+        "year": "2005",
+        "topspeed": "260",
+        "zero100": "5.2",
+        "hp": "306",
+        "type": "supercar",
+        "engine": "rotary"
+
+    }
+
+]
